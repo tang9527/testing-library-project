@@ -1,0 +1,54 @@
+.qq__title {
+  font-size: xx-large;
+}
+.qq__search {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.qq__label {
+  font-size: medium;
+}
+.qq__input {
+  margin-left: 5px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+}
+.qq__input:focus {
+  outline: none;
+}
+.qq__avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.qq__info {
+  border: 1px solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 6px;
+  width: fit-content;
+  height: fit-content;
+}
+.qq__detail {
+  margin-left: 10px;
+}
+.qq__nick {
+  font-size: large;
+}
+.qq_number {
+  font-size: small;
+  color: gray;
+}
+.qq__loading {
+  margin: 20px;
+}
+.qq__error {
+  margin: 20px;
+  color: red;
+}
